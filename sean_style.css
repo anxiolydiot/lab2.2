@@ -1,0 +1,86 @@
+
+body{
+	background-image: url("apple.gif");
+	background-color: #E0B0FF;
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: fixed;
+
+	
+}
+
+nav {
+position: fixed;
+margin: 5%;
+top: .793px;
+
+
+}
+
+ul > :first-child {
+	background-image: url("Kiwi.png");
+	background-size: 62%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 30px;
+	color: #DADAFF;
+	text-align: center;
+}
+
+ul > :first-child + li{
+	background-image: url("blackberry.png");
+	background-size: 65%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 42px;
+	color: #FF0000;
+
+}
+
+ul > :first-child + li + li{
+	background-image: url("peach.png");
+	background-size: 57%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 60px;
+	color: #FF0010;
+}
+
+article{
+	border: 3px solid black;
+	border-radius: 7%;
+	border-spacing: 20px;
+	float:left;
+	margin:60% 1% 0% 1%;
+	height: 500px;
+	text-align: center;
+	text-align:justify;
+
+}
+
+p{
+	padding-top: 4%;
+}
+
+#blackberry {
+	padding-top: 40%
+
+}
+
+#kiwi {
+	margin:60% 40% 0% 1%;
+}
+aside{
+	float:left;
+	border: 3px solid black;
+	border-radius: 74%;
+	float:left;
+	padding-bottom: 20%;
+	margin:60% 40% 0% 1%;
+	height: 100px;
+	text-align: center;
+	
+	
+
+}
+
